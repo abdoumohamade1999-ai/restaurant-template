@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="اكتشف قائمة مطعم النكهة، أشهى الأطباق المحضرة بعناية وبمكونات طازجة.">
+    <meta name="theme-color" content="#173f35">
+    <title>مطعم النكهة | مذاق يستحق التجربة</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container nav-container">
+            <a class="brand" href="#home">
+                <span class="brand-icon">✳</span>
+                <span>النكهة<span class="brand-dot">.</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="فتح القائمة" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="main-nav" id="main-nav">
+                <a href="#home">الرئيسية</a>
+                <a href="#menu">قائمة الطعام</a>
+                <a href="#about">عن المطعم</a>
+                <a href="#contact">تواصل معنا</a>
+            </nav>
+
+            <a class="header-button" href="#menu">اكتشف قائمتنا ↙</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-decoration decoration-one"></div>
+            <div class="hero-decoration decoration-two"></div>
+
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <span class="eyebrow">● نكهة مختلفة في كل لقمة</span>
+                    <h1>الطعم الجميل<br>يبدأ من <span>هنا.</span></h1>
+                    <p>
+                        أطباق محضرة بعناية، ومكونات مختارة،
+                        وأجواء تجعل كل زيارة تجربة تستحق التكرار.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#menu" class="button button-primary">اكتشف قائمة الطعام</a>
+                        <a href="#about" class="text-link">قصتنا ←</a>
+                    </div>
+
+                    <div class="hero-note">
+                        <span class="note-star">✦</span>
+                        <div>
+                            <strong>الجودة في التفاصيل</strong>
+                            <small>من اختيار المكونات حتى تقديم الطبق</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="food-orbit orbit-one"></div>
+                    <div class="food-orbit orbit-two"></div>
+
+                    <div class="food-circle">
+                        <span class="food-emoji" role="img" aria-label="طبق طعام">🍲</span>
+                    </div>
+
+                    <div class="floating-card card-top">
+                        <span>✦</span>
+                        <div><strong>طازج ولذيذ</strong><small>كل يوم</small></div>
+                    </div>
+
+                    <div class="floating-card card-bottom">
+                        <span class="mini-emoji">🍽️</span>
+                        <div><strong>حضّر شهيتك</strong><small>رحلة من النكهات</small></div>
+                    </div>
+
+                    <span class="visual-caption">صنع بحب ♡</span>
+                </div>
+            </div>
+
+            <div class="hero-bottom-line">
+                <span>نكهات تستحق الاكتشاف</span>
+                <span>✳</span>
+                <span>أطباق لكل الأذواق</span>
+                <span>✳</span>
+                <span>ضيافة من القلب</span>
+            </div>
+        </section>
+
+        <section class="menu-section section-padding" id="menu">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">ماذا ستختار اليوم؟</span>
+                        <h2>أشهى اختياراتنا<span class="brand-dot">.</span></h2>
+                    </div>
+                    <p>ألقِ نظرة على بعض الأطباق المقترحة من قائمتنا.</p>
+                </div>
+
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <div class="dish-image dish-one">
+                            <span class="dish-emoji">🍔</span>
+                            <span class="dish-tag">اختيار مميز</span>
+                        </div>
+                        <div class="dish-info">
+                            <div class="dish-title">
+                                <h3>برغر المطعم</h3>
+                                <span class="dish-price">850 دج</span>
+                            </div>
+                            <p>برغر شهي مع الخضروات الطازجة والصلصة الخاصة.</p>
+                        </div>
+                    </article>
+
+                    <article class="menu-card">
+                        <div class="dish-image dish-two">
+                            <span class="dish-emoji">🍕</span>
+                            <span class="dish-tag">محبوب الجميع</span>
+                        </div>
+                        <div class="dish-info">
+                            <div class="dish-title">
+                                <h3>بيتزا الجبن</h3>
+                                <span class="dish-price">900 دج</span>
+                            </div>
+                            <p>عجينة شهية وجبن ذائب مع مكونات مختارة.</p>
+                        </div>
+                    </article>
+
+                    <article class="menu-card">
+                        <div class="dish-image dish-three">
+                            <span class="dish-emoji">🍗</span>
+                            <span class="dish-tag">وجبة مشبعة</span>
+                        </div>
+                        <div class="dish-info">
+                            <div class="dish-title">
+                                <h3>دجاج مشوي</h3>
+                                <span class="dish-price">1200 دج</span>
+                            </div>
+                            <p>دجاج متبل يقدم مع طبق جانبي حسب الاختيار.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="menu-disclaimer">
+                    هذه أطباق وأسعار تجريبية للنموذج. استبدلها بمنتجات المطعم الحقيقية.
+                </p>
+            </div>
+        </section>
+
+        <section class="about-section section-padding" id="about">
+            <div class="container about-grid">
+                <div class="about-art">
+                    <div class="about-art-inner">
+                        <span>👨‍🍳</span>
+                        <p>شغف بالطعام، واهتمام بالتفاصيل.</p>
+                    </div>
+                    <span class="about-stamp">طازج ♡ لذيذ</span>
+                </div>
+
+                <div class="about-copy">
+                    <span class="eyebrow">حكايتنا</span>
+                    <h2>الطعام ليس مجرد وجبة، بل <span>تجربة.</span></h2>
+                    <p>
+                        في مطعم النكهة، نؤمن أن الوجبة الجميلة تبدأ بمكونات جيدة،
+                        وتكتمل بالاهتمام بالتفاصيل وحسن الاستقبال.
+                        هدفنا أن تجد طبقك المفضل وتعود إلينا بابتسامة.
+                    </p>
+
+                    <div class="values">
+                        <div><span>✦</span><strong>مكونات مختارة</strong></div>
+                        <div><span>♡</span><strong>خدمة ودودة</strong></div>
+                        <div><span>✳</span><strong>اهتمام بالتفاصيل</strong></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section section-padding" id="contact">
+            <div class="container contact-box">
+                <div>
+                    <span class="eyebrow">نحن في انتظارك</span>
+                    <h2>هل أنت مستعد للوجبة القادمة؟</h2>
+                    <p>زرنا في المطعم أو تواصل معنا لمعرفة تفاصيل الطلبات.</p>
+                </div>
+                <a href="mailto:hello@example.com" class="button button-light">
+                    تواصل معنا ↙
+                </a>
+            </div>
+
+            <div class="container contact-details">
+                <div><span>📍</span><p><strong>العنوان</strong><br>أضف عنوان المطعم هنا</p></div>
+                <div><span>☎</span><p><strong>الهاتف</strong><br>أضف رقم هاتف المطعم هنا</p></div>
+                <div><span>◷</span><p><strong>أوقات العمل</strong><br>أضف أوقات العمل هنا</p></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="brand footer-brand" href="#home">
+                <span class="brand-icon">✳</span>
+                <span>النكهة<span class="brand-dot">.</span></span>
+            </a>
+            <p>صُنع بعناية، وقُدّم بمحبة.</p>
+            <span>© <span id="year"></span> مطعم النكهة</span>
+        </div>
+    </footer>
+
+</body>
+</html>
